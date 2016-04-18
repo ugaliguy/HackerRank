@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 string = raw_input().strip()
-chars = string.split()
+chars = list(string)
 
 alpha = []
 digit = []
