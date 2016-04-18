@@ -6,6 +6,6 @@ e = set(raw_input().split())
 french = int(raw_input())
 f = set(raw_input().split())
 
-either = e.union(f)
+both = e.intersection(f)
 
-print len(either)
+print len(both)
