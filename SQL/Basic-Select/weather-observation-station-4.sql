@@ -1,6 +1,5 @@
 /*
 Enter your query here.
 */
-
-SELECT CITY, STATE
+SELECT COUNT(CITY) - COUNT(DISTINCT CITY)
 FROM STATION;
