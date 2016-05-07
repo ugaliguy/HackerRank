@@ -1,0 +1,1 @@
+japanese-cities-detail.sql
