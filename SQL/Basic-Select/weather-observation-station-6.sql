@@ -1,0 +1,7 @@
+/*
+Enter your query here.
+*/
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE UCASE(SUBSTRING(CITY FROM 1 FOR 1)) IN ('A','E','I','O','U');
