@@ -1,1 +1,8 @@
-weather-observation-station-10.sql
+/*
+Enter your query here.
+*/
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE 
+CITY REGEXP '[^AEIOU]$'; 
