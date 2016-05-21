@@ -1,3 +1,13 @@
+// Most of the problems on HackerRank require reading input from stdin (standard input) and 
+// writing output to stdout (standard output).
+
+// One way to read from stdin is by using the Scanner class and specifying 
+// the InputStream as System.in. Alternatively, you can use the BufferedReader class.
+
+// Lines of output can be written to stdout with the System.out.println function.
+
+// For this exercise, you need to read inputs from stdin and print them to stdout.
+
 import java.util.Scanner;
 
 public class Solution {
