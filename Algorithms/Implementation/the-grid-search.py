@@ -9,7 +9,7 @@ def search_inside(G, P, R, C, r, c):
             for k in range(r):
                 if G[i + k][j:j + c] != P[k]:
                     valid = False
-                    break
+                    break # break out of for-loop and go to next value of j
 
             if valid:
                 print 'YES'
