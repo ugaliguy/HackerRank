@@ -3,6 +3,7 @@
 from collections import Counter
 
 word = sorted(Counter(raw_input()).items(), key= lambda x: (-x[1],x[0]))[:3]
+
 print("\n".join(x[0]+" "+str(x[1]) for x in word))
 
 # The code below passed all but one test.
