@@ -2,7 +2,7 @@
 
 from collections import OrderedDict
 
-n = int(raw_input())
+word = int(raw_input())
 
 sales = OrderedDict()
 
