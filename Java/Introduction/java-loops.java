@@ -18,7 +18,8 @@ public class Solution {
             list.add(sc.nextInt());
         }
         
-        int x=0,y=1,z=2; int term=0;
+        int x=0,y=1,z=2; 
+        int term=0;
         for(int i=0; i<t; i++){
             int a = list.get(x);
             int b = list.get(y);
@@ -30,7 +31,9 @@ public class Solution {
                 }
                 System.out.print(term+" ");
             }
-                x+=3;y+=3;z+=3;
+                x+=3;
+                y+=3;
+                z+=3;
                 System.out.println();
         }
         
