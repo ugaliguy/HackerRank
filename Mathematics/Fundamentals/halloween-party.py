@@ -1,5 +1,3 @@
-halloween-party.py
-
 # Python 2
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
