@@ -1,6 +1,7 @@
 #!/bin/python
 
 import sys
+
 t = int(raw_input().strip())
 
 size = 3 
